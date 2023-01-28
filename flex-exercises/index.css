@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    border: 5px solid #ffcc5c;
+    margin-bottom: 20px;
+}
+
+.container .article {
+    flex: 1 200px;
+    font-size: 10px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
