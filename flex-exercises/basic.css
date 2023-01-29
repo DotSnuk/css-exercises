@@ -1,9 +1,8 @@
 .container > div {
-    padding: 5px;
-    margin: 0px auto;
     text-align: center;
     font-size: 2em;
     color: #ffeead;
+    flex: 1;
 }
 
 html, body {
@@ -21,4 +20,13 @@ html, body {
 
 .container > div:nth-child(3) {
     background-color: #88d8b0;
+}
+
+.news > .article:nth-child(odd) {
+    background-color: #88d8b0;
+}
+
+.article {
+    padding: 5px;
+    background-color: #96ceb4;
 }

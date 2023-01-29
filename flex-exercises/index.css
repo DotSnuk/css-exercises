@@ -2,12 +2,31 @@
     display: flex;
     border: 5px solid #ffcc5c;
     margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.container .article {
-    flex: 1 200px;
+#news-container {
+    flex-direction: column;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.article {
     font-size: 10px;
-    padding: 2px;
-    border: 1px solid black;
+    flex: 1 300px;
 }
 
+.date {
+    text-align: center;
+    flex: 1;
+    border-bottom: 5px solid #ffcc5c;;
+}
+
+.container > .date {
+    flex-direction: column;
+}
